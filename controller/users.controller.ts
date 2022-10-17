@@ -1,5 +1,5 @@
 import { Request, Response } from "express"
-import db from "./../models/.";
+import db from "./../models/index";
 
 async function getUsers(req: Request, res: Response) {
   try {
